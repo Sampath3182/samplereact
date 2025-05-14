@@ -1,0 +1,135 @@
+/* App.css */
+
+html,body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding:0;
+}
+
+.container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #004466;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100vw;
+}
+
+.title {
+  margin: 0;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  margin: 0 25px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold; 
+  border-radius: 5px;
+  max-width: 250px;
+  border: 2px solid #0a5e734e;
+  padding: 5px;
+  background-color: #0a5e734e;
+
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: rgb(0, 60, 255);
+}
+
+.section {
+  margin-top: 40px;
+
+}
+
+.section h2 {
+  color: #004466;
+  padding: 10px;
+  text-align: center;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+.footer {
+  margin-top: 60px;
+  padding: 10px;
+  text-align: center;
+  background-color: #eaeaea;
+  font-size: 14px;
+}
+.challenge{
+  border: 1px solid rgb(18, 16, 16);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  padding: 20px;
+  margin: 25px;
+  margin-top: 25px;
+  text-align: center;
+  max-width: 250px;
+  display:inline-block;
+  background-color: #fff;
+}
+.challenge .challenge-img{
+  max-width: 70%;
+  height: auto;
+  
+}
+.challenge .challenge-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color:#333
+}
+.challenge .challenge-text{
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.section {
+  width: 100%;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.section p, .section ul {
+  margin: 0 auto;
+  max-width: 450px;
+  text-align: center;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:20px;
+  margin-top: 20px;
+}
+.challenge-btn {
+  background-color: #1d90c9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.challenge-btn:hover {
+  background-color: #02688ba3;
+}
